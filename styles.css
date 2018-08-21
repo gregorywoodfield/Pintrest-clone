@@ -1,0 +1,135 @@
+/* Header Styles*/
+#header {
+	width: 100%;
+	background-color: white;
+	color: #a1a1a1;
+	margin-bottom: -25px;
+	border-bottom: 1px solid #f4f4f4;
+	height: 55px;
+}
+
+#header ul li {
+	list-style-type: none;
+	font-family: Arial;
+	font-size: .8em;  /* Great for Nav items/bars*/
+	font-weight: bold;
+	display: inline-block;
+}
+
+#logo {
+	float: left; /* Where you want the logo to be on the header of the page*/
+}
+
+#logo img {
+	width: 35px;
+	float: left; /* Where you want the logo to be on the header of the page*/
+}
+
+#search {
+	width: 50%;
+	float: left; /* The actual search div */
+	margin-left: 240px;
+	padding-top:10px;
+}
+
+#search-box {
+	width: 142%;  /* How wide the box actually is. */
+	height: 25px;
+	border-radius: 8px;
+	padding: 10px;
+	background-color: #EFEFEF;
+	margin: -190px;
+	border:0px;
+	font-size: 20px;
+	font-color:black;
+	outline:none;  /* Takes off the blue box around the website*/
+}
+
+#nav-buttons {
+	float: right;
+	margin-top: 2px;
+	margin-right: 20px;
+
+}
+
+#nav-buttons a {
+	color: #bababa;
+	text-decoration: none;
+	font-size: 1.9em;
+	margin-left: 30px;
+
+}
+
+#nav-buttons a:hover {
+	color: #393B39 ;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 50px auto;
+}
+
+#columns {
+	-webkit-column-count: 5;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 5;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 5;
+	column-gap: 10px;
+	column-fill: auto;
+
+}
+
+.pin {
+	display: inline-block;
+	background: #fefefe;
+	border: 2px solid #fafafa;
+	box-shadow: 0px 1px 2px rgba(34, 25, 25,0.4);
+	margin: 0px 2px 15px 0px;
+	-webkit-columns-break-inside: avoid;
+	-moz-columns-break-inside: avoid;
+	columns-break-inside: avoid;
+	padding: 15px 15px 5px 15px;
+	background: -webkit-linear-gradient(45deg, #fff,#F9F9F9);
+	opacity: 1;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+
+}
+
+.pin img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+}
+
+.pin p {
+	font: 12/18px Arial, sans-serif;
+	color: #333;
+	margin: 0;
+	font-family: 'Gaegu', cursive;  /* what will be in the fonts on the pins*/
+
+
+}
+
+.pin:hover {
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
